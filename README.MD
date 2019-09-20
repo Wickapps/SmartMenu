@@ -1,15 +1,3 @@
-<p float="left"; style="background-color:#333; color:#ddd;">
-<font size="7">
-<br />
-&nbsp;&nbsp;&nbsp;SmartMenu Introduction
-<br /><br />
-</font>
-<font size="2">
-&nbsp;&nbsp;&nbsp;&nbsp;Document location: &nbsp;&nbsp;github.com/wickapps/smartmenu/SmartMenu_Intro.MD
-<br />
-</font>
-</p>
-
 # Introduction
 
 SmartMenu is a set of Android Apps which help restaurants or food and beverage service businesses to manage their order flow.
@@ -56,7 +44,6 @@ SmartMenu consists of the following native Android Apps. At this time, SmartMenu
 
 <p float="left">
   <img src="SM-apps-gy.jpg" width="600" />
-  <img src="" width="" /> 
 </p>
 
 The SmartMenu apps can be mixed and matched to meet the needs of most restaurant service models, including, quick service, full service, and take out only service models.
@@ -216,7 +203,6 @@ An example screenshot of the *Menu Tab* follows. This particular menu includes f
 
 <p float="left">
   <img src="Order.jpg"; width="350"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 When a customer or wait staff presses on a dish, a detailed *Dish Options* screen is shown for that particular dish. This screen includes detailed pricing options and extra configuration choices. The user is also allowed to enter a special instruction, or a dish quantity if the would like more than one item.
@@ -225,7 +211,6 @@ The *Dish Options* screenshot is shown below.
 
 <p float="left">
   <img src="Order2.jpg"; width="350"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 When a customer or wait staff presses the *Add to Order* button, the dish will be added to the order, along with all of the selected options, quantity and special instructions.
@@ -236,7 +221,6 @@ The second tab on the **Order** App layout is the *Send Order* tab. This tab sho
 
 <p float="left">
   <img src="Order3.jpg"; width="350"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 The Send Order tab allows the user to delete dishes, edit dishes, or send the order. At any time, uses can switch back and forth between then Menu tab and the Send Order tab to build their order ticket. 
@@ -294,7 +278,6 @@ The screenshot below shows the **MenuEdit** App displaying the *Menu Dish* entry
 
 <p float="left">
   <img src="Edit.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 In addition to all of the details for specific menu items, the MenuEdit App also allows the user to mark certain dishes as *Unavailable*. Dishes marked as *Unavailable* are color-coded in inverse-red color, and can be seen in the screenshot on the left side. Dishes marked as *Unavailable* do not display on the other SmartMenu Apps. This is a useful feature for the restaurant owner if perhaps, during the course of daily operations, a certain dish becomes unavailable for any particular reason.  
@@ -345,7 +328,6 @@ In this example, only table 17 has an open tab, as indicated by the "plus circle
 
 <p float="left">
   <img src="POS-1.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 When the user clicks on the *Menu/Table* toggle button in the top panel, the left information panel will switch to the *Menu View*.
@@ -354,7 +336,6 @@ The image below shows the active *Menu View* on the left information area. It is
 
 <p float="left">
   <img src="POS-2.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 When the user pressed on one of the menu buttons, a popup window appears which allows them to configure the options of the dish and add the item to the currently selected ticket or table.
@@ -363,7 +344,6 @@ the image below shows the *Dish Options* popup for one of the items on the menu.
 
 <p float="left">
   <img src="POS-3.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 ## POS App Use Case
@@ -412,7 +392,6 @@ The image below shows a snapshot of the *Ticket View*. Ticket headers are color 
 
 <p float="left">
   <img src="Quick.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 The bottom of each ticket displays the total number of dishes on the ticket and the total price of the ticket. Just as in the **POS** App, the right panel shows the details of the dishes assigned to each ticket.
@@ -470,7 +449,6 @@ SmartMenu has not been tested with Star POS printers. However, Star indicates th
 
 <p float="left">
   <img src="sm-printers.jpg"; width="600"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 The POS printers support several different types of connectivity, but to be used with SmartMenu, they must be configured with the Ethernet connection module.
@@ -483,7 +461,6 @@ The cash drawer is connected to the POS printer by a standard 4-pin modular conn
 
 <p float="left">
   <img src="sm-drawer.jpg"; width="400"; style=""; />
-  <img src="" width="" /> 
 </p>
 
 Any drawer which has the 4-pin modular connector on the back will work as a cash drawer in the SmartMenu system when connected to an Epson ESC compatible POS printer.
