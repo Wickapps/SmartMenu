@@ -6,10 +6,6 @@ This document will provide a summary introduction of the SmartMenu software and 
 
 Detailed instruction manuals for the individual apps will be be provided as separate documents. 
 
-For the complete set of documents, visit: github.com/wickapps/smartmenu
-
-SmartMenu is a work in progress. See the current to-do worklist at SmartMenu_Worklist.MD.
-
 ## Food & Beverage Digitization Trend
 
 Restaurants or food & beverage operation digitization is currently at the early stages of a strong up-trend. SmartMenu can help businesses achieve their digitization goals.
@@ -43,7 +39,7 @@ SmartMenu offers advantages for food and beverage operations which have not yet 
 SmartMenu consists of the following native Android Apps. At this time, SmartMenu does not support any native Apple iOS applications.
 
 <p float="left">
-  <img src="SM-apps-gy.jpg" width="600" />
+  <img src="pics/SM-apps-gy.jpg" width="600" />
 </p>
 
 The SmartMenu apps can be mixed and matched to meet the needs of most restaurant service models, including, quick service, full service, and take out only service models.
@@ -95,13 +91,13 @@ The first step in configuring SmartMenu is to decide which restaurant service mo
 
 The SmartMenu apps are modular. The table below shows the SmartMenu Application combinations typically used to implement the common restaurant service models. Note that in each of the models, the Menu Edit App is used to configure and manage the menu.
 
-|                    |    <img src="SM-Logo-ORDER.png" width="100" />    | <img src="SM-Logo-POS.png" width="100" /> | <img src="SM-Logo-QUICK.png" width="100" /> | <img src="SM-Logo-EDIT.png" width="100" /> |
-| ------------------ | :-----------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
-| Quick Service      | <img src="check.jpg" width="40" /> (line busting) |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
-| Full Service       |   <img src="check.jpg" width="40" /> (optional)   |    <img src="check.jpg" width="40" />     |                                             |     <img src="check.jpg" width="40" />     |
-| Food Truck Service |   <img src="check.jpg" width="40" /> (optional)   |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
-| Take Out Service   |                                                   |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
-| Delivery Service   | <img src="check.jpg" width="40" /> (wide mobile)  |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
+|                    |    <img src="pics/SM-Logo-ORDER.png" width="100" />    | <img src="pics/SM-Logo-POS.png" width="100" /> | <img src="pics/SM-Logo-QUICK.png" width="100" /> | <img src="pics/SM-Logo-EDIT.png" width="100" /> |
+| ------------------ | :----------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| Quick Service      | <img src="pics/check.jpg" width="40" /> (line busting) |                                                |     <img src="pics/check.jpg" width="40" />      |     <img src="pics/check.jpg" width="40" />     |
+| Full Service       |   <img src="pics/check.jpg" width="40" /> (optional)   |    <img src="pics/check.jpg" width="40" />     |                                                  |     <img src="pics/check.jpg" width="40" />     |
+| Food Truck Service |   <img src="pics/check.jpg" width="40" /> (optional)   |                                                |     <img src="pics/check.jpg" width="40" />      |     <img src="pics/check.jpg" width="40" />     |
+| Take Out Service   |                                                        |                                                |     <img src="pics/check.jpg" width="40" />      |     <img src="pics/check.jpg" width="40" />     |
+| Delivery Service   | <img src="pics/check.jpg" width="40" /> (wide mobile)  |                                                |     <img src="pics/check.jpg" width="40" />      |     <img src="pics/check.jpg" width="40" />     |
 
 There is some flexibility in the way the apps can be combined. 
 
@@ -164,7 +160,7 @@ In addition to the system level features, each of the Android apps and server so
 The drawing below shows a typical SmartMenu configuration, utilizing all four of the SmartMenu apps, three POS printers, a cash drawer, and internet connection to the backend server.
 
 <p float="left">
-  <img src="sm-arch.jpg" />
+  <img src="pics/sm-arch.jpg" />
 </p>
 
 As shown, the **Order** App can be used directly by customers or by in-house wait staff, while the **Edit**, **Quick**, and **POS** Apps are exclusively used by managers or restaurant staff. 
@@ -202,7 +198,7 @@ The main body of the layout consists of two tabs:
 An example screenshot of the *Menu Tab* follows. This particular menu includes fifteen dish categories which are shown on the left.
 
 <p float="left">
-  <img src="Order.jpg"; width="350"; style=""; />
+  <img src="pics/Order.jpg"; width="350"; style=""; />
 </p>
 
 When a customer or wait staff presses on a dish, a detailed *Dish Options* screen is shown for that particular dish. This screen includes detailed pricing options and extra configuration choices. The user is also allowed to enter a special instruction, or a dish quantity if the would like more than one item.
@@ -210,7 +206,7 @@ When a customer or wait staff presses on a dish, a detailed *Dish Options* scree
 The *Dish Options* screenshot is shown below. 
 
 <p float="left">
-  <img src="Order2.jpg"; width="350"; style=""; />
+  <img src="pics/Order2.jpg"; width="350"; style=""; />
 </p>
 
 When a customer or wait staff presses the *Add to Order* button, the dish will be added to the order, along with all of the selected options, quantity and special instructions.
@@ -220,7 +216,7 @@ When a customer or wait staff presses the *Add to Order* button, the dish will b
 The second tab on the **Order** App layout is the *Send Order* tab. This tab shows the user the currently selected dishes on the order ticket. A screenshot is shown below.
 
 <p float="left">
-  <img src="Order3.jpg"; width="350"; style=""; />
+  <img src="pics/Order3.jpg"; width="350"; style=""; />
 </p>
 
 The Send Order tab allows the user to delete dishes, edit dishes, or send the order. At any time, uses can switch back and forth between then Menu tab and the Send Order tab to build their order ticket. 
@@ -277,7 +273,7 @@ The *Menu Dish* entry is a lower level entry and is the most commonly used. This
 The screenshot below shows the **MenuEdit** App displaying the *Menu Dish* entry for one of the dishes on the menu, in this case, the Jumbo Breakfast, which is highlighted in gray color on the left side.  
 
 <p float="left">
-  <img src="Edit.jpg"; width="600"; style=""; />
+  <img src="pics/Edit.jpg"; width="600"; style=""; />
 </p>
 
 In addition to all of the details for specific menu items, the MenuEdit App also allows the user to mark certain dishes as *Unavailable*. Dishes marked as *Unavailable* are color-coded in inverse-red color, and can be seen in the screenshot on the left side. Dishes marked as *Unavailable* do not display on the other SmartMenu Apps. This is a useful feature for the restaurant owner if perhaps, during the course of daily operations, a certain dish becomes unavailable for any particular reason.  
@@ -327,7 +323,7 @@ The image below shows the **POS** App with the *Table View* on the left informat
 In this example, only table 17 has an open tab, as indicated by the "plus circle" indicator on the table button. The right ticket panel is currently displaying the current items (two items) assigned to this open tab.
 
 <p float="left">
-  <img src="POS-1.jpg"; width="600"; style=""; />
+  <img src="pics/POS-1.jpg"; width="600"; style=""; />
 </p>
 
 When the user clicks on the *Menu/Table* toggle button in the top panel, the left information panel will switch to the *Menu View*.
@@ -335,7 +331,7 @@ When the user clicks on the *Menu/Table* toggle button in the top panel, the lef
 The image below shows the active *Menu View* on the left information area. It is a color-coded view of the entire menu, with each color set representing a different category of dishes. In this particular menu, for example, the red color buttons are the items which belong to the breakfast category.
 
 <p float="left">
-  <img src="POS-2.jpg"; width="600"; style=""; />
+  <img src="pics/POS-2.jpg"; width="600"; style=""; />
 </p>
 
 When the user pressed on one of the menu buttons, a popup window appears which allows them to configure the options of the dish and add the item to the currently selected ticket or table.
@@ -343,7 +339,7 @@ When the user pressed on one of the menu buttons, a popup window appears which a
 the image below shows the *Dish Options* popup for one of the items on the menu. Each *Dish Options* popup follows a color coding scheme and a structure which make it very efficient to take and manage customer orders. This approach will be discussed in detail in the **POS** App user manual document.
 
 <p float="left">
-  <img src="POS-3.jpg"; width="600"; style=""; />
+  <img src="pics/POS-3.jpg"; width="600"; style=""; />
 </p>
 
 ## POS App Use Case
@@ -391,7 +387,7 @@ The layout of the Quick App is very similar to the POS App with one key differen
 The image below shows a snapshot of the *Ticket View*. Ticket headers are color coded to show their source. In this example below, two of the ticket headers in blue indicate that these tickets were generated directly by the **Quick** App itself, while one of the ticket headers shown in purple was generated by the **Order** App.
 
 <p float="left">
-  <img src="Quick.jpg"; width="600"; style=""; />
+  <img src="pics/Quick.jpg"; width="600"; style=""; />
 </p>
 
 The bottom of each ticket displays the total number of dishes on the ticket and the total price of the ticket. Just as in the **POS** App, the right panel shows the details of the dishes assigned to each ticket.
@@ -448,7 +444,7 @@ SmartMenu supports POS printers which utilize the Epson ESC POS command set. Thi
 SmartMenu has not been tested with Star POS printers. However, Star indicates that many of their printers have emulation mode compatible with ESC POS, so it is likely that Star POS printers can work with SmartMenu.
 
 <p float="left">
-  <img src="sm-printers.jpg"; width="600"; style=""; />
+  <img src="pics/sm-printers.jpg"; width="600"; style=""; />
 </p>
 
 The POS printers support several different types of connectivity, but to be used with SmartMenu, they must be configured with the Ethernet connection module.
@@ -460,7 +456,7 @@ SmartMenu supports the connection of a cash drawer to the first POS printer, whi
 The cash drawer is connected to the POS printer by a standard 4-pin modular connector cable. This is the same as the cable used for traditional plain old telephone handsets. Once connected, the drawer is able to be opened by software control.
 
 <p float="left">
-  <img src="sm-drawer.jpg"; width="400"; style=""; />
+  <img src="pics/sm-drawer.jpg"; width="400"; style=""; />
 </p>
 
 Any drawer which has the 4-pin modular connector on the back will work as a cash drawer in the SmartMenu system when connected to an Epson ESC compatible POS printer.
