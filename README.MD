@@ -97,7 +97,7 @@ The SmartMenu apps are modular. The table below shows the SmartMenu Application 
 
 |                    |    <img src="SM-Logo-ORDER.png" width="100" />    | <img src="SM-Logo-POS.png" width="100" /> | <img src="SM-Logo-QUICK.png" width="100" /> | <img src="SM-Logo-EDIT.png" width="100" /> |
 | ------------------ | :-----------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
-| Quick Service      | <img src="check.jpg" width="40" /> (line busting) |                                           |     <img src="check1.png" width="40" />     |     <img src="check.jpg" width="40" />     |
+| Quick Service      | <img src="check.jpg" width="40" /> (line busting) |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
 | Full Service       |   <img src="check.jpg" width="40" /> (optional)   |    <img src="check.jpg" width="40" />     |                                             |     <img src="check.jpg" width="40" />     |
 | Food Truck Service |   <img src="check.jpg" width="40" /> (optional)   |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
 | Take Out Service   |                                                   |                                           |     <img src="check.jpg" width="40" />      |     <img src="check.jpg" width="40" />     |
